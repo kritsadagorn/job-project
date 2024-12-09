@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'boxicons';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.logo {
+  height: 113px;
+  cursor:pointer;
+  margin-left: 5vw;
+}
+
+.navtopic{
+  text-decoration: none;
+  font-weight: bold;
+  color: #e0e2e8;
+}
+
+.navtopic:hover{
+  color: #6d7896;
+  transition: 0.2s;
+}
+
+nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  list-style: none;
+  height: 100%;
+}
+
+li {
+  font-size: 32px;
+  margin: 0 140px;
+  text-shadow: 0px 1px 4px #8c8c8c;
+}
+
+.textlight-on{
+  color:white;
+  font-weight: bold;
+}
+.textlight-on:hover{
+  color:#7c7c7c;
+  font-weight: bold;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 20px;
+  /* background: #ffffff;
+  width: 272px;
+  height: 50px; */
+  /* box-shadow: 0px 2px 2px 2px #413e4f; */
+  cursor:pointer;
+  margin-right: 1.2rem;
+}
+
+.nmtoggle, .us {
+  width: 1.7rem;
+}
+
+.th {
+  width: 2.3rem;
+}
