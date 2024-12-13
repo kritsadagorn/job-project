@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Rootlayout from './layout/Rootlayout';
 import Learn from './Pages/Learn';
 import About from './Pages/About';
+import Position from './Pages/Position';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([{
@@ -20,6 +21,9 @@ const router = createBrowserRouter([{
   },{
     path: "/about",
     element: <About/>
+  },{
+    path: "/position/comeng",
+    element: <Position/>
   }]
 }])
 root.render(

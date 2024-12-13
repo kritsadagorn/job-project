@@ -1,0 +1,79 @@
+.position-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.topicCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.posTopic {
+    display: flex;
+    background-color: #F1F1F1;
+    color: #2F3665;
+    border: 4px solid #02577A;
+    padding: 0.5rem 1.5rem;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-left: 6rem;
+    font-weight: bold;
+}
+
+.addOn {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+.sortBox {
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 16px;
+    color: #858AC6;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sortBox select {
+    margin-left: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFF;
+    color: #2F3665;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    padding: 0.8rem 1rem;
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    background-color: #F1F1F1;
+    color: #2F3665;
+}
+
+.searchBar input::placeholder {
+    color: #AAA;
+    font-style: italic;
+}
+
+.box{
+    display:flex;
+    width: 50px;
+    background-color: #2F3665;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}

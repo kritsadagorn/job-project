@@ -1,7 +1,5 @@
 import './App.css';
-import Navbar from './navbar/Navbar';
 import GoButton from './components/GoButton'
-import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return(
